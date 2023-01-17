@@ -1,0 +1,10 @@
+1. s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+2. client socket make connection to serverice and request for answers, server socket wait for client request and send back answers by request.
+server: bind to an address, bind to a port, accept requests
+client: connects to an address and port
+
+3. s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+4.
+5.
+6.
